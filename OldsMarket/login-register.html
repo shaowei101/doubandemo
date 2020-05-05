@@ -1,0 +1,252 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!--meta tags-->
+
+    <meta charset="UTF-8">
+    <meta name="description" content="Services Listing HTML5 CSS3 template">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript, services, listing">
+    <meta name="author" content="Ui-DesignLab">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--end meta tags-->
+
+    <title>登录注册</title>
+    <!--stylesheets-->
+    <link rel="stylesheet" href="vendor/css/bootstrap.min.css">
+    <link rel="stylesheet" href="vendor/css/animate.min.css">
+    <link rel="stylesheet" href="vendor/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="vendor/perfect-scrollbar/css/perfect-scrollbar.min.css">
+    <link rel="stylesheet" href="css/app.css">
+    <!--end stylesheets-->
+
+    <!--google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Cairo%7CNosifer%7CPoppins%7CQuicksand:700%7CRaleway%7CTangerine%7CHind+Vadodara" rel="stylesheet">
+    <!--end google fonts-->
+</head>
+<body>
+
+     
+
+
+<!--导航栏-->
+<nav class="site-top-nav">
+    <div class="logo">
+        <a href="index.html">
+            <img src="img/logo.png" alt="">
+            <strong>升龙二手物品交易平台</strong>
+        </a>
+    </div>
+    <ul class="site-menu">
+        <li>
+            <a href="index.html">首页 <i class="fa fa-angle-down"></i></a>
+        </li>
+        <li>
+            <a href="pricing.html">其他页面<i class="fa fa-angle-down"></i></a>
+            <ul class="nav-dropdown">
+                <li><a href="cart.html">购物车</a></li>
+                <li><a href="payment-info.html">支付信息</a></li>
+                <li><a href="dash-items.html">我的订单</a></li>
+            </ul>
+        </li>
+        <li><a href="login-register.html" class="ui-btn ui-btn-info">Get Started</a></li>
+    </ul>
+    <i class="nav-toggle fa fa-bars"></i>
+</nav>
+<!--导航栏结束-->
+
+<!--login/register form-->
+<div class="forms-wrapper">
+    <div class="forms-box">
+        <div class="side-content">
+            <div class="hoist animated fadeInLeft">
+                <div class="hoist-c">
+                    <i class="fa fa-users ui-text-warn"></i>
+                    <strong>现货市场</strong>
+                    <span>为你的产品准备市场</span>
+                </div>
+                <div class="hoist-c">
+                    <i class="fa fa-shopping-cart ui-text-danger"></i>
+                    <strong>即时付款</strong>
+                    <span>一站式服务的每次付款</span>
+                </div>
+                <div class="hoist-c">
+                    <i class="fa fa-percent ui-text-info"></i>
+                    <strong>独家提供</strong>
+                    <span>特别优惠及超值优惠</span>
+                </div>
+            </div>
+        </div>
+        <div class="auth-forms">
+            <div class="switch-nav">
+                <a data-form="login-form" href="#" class="current" id="denglu">登录</a>
+                <a data-form="register-form" href="#" id="zhuce">注册</a>
+            </div>
+            <div class="forms-c">
+                <div class="login-form animated" id="denglu1">
+                    <div class="form-group">
+                        <label for="email">手机</label>
+                        <input type="email" id="email" class="form-control" placeholder="手机">
+                    </div>
+                    <div class="form-group">
+                        <label for="password">你的密码</label>
+                        <div class="site-password">
+                            <input type="password" id="password" class="form-control" value="147258369">
+                            <i class="reveal-password fa fa-eye" title="Show Password"></i>
+                        </div>
+                        <div class="forgot-password"><a href="#">忘记密码</a></div>
+                    </div>
+                    <button type="submit" class="form-control ui-btn ui-btn-info btn-shadow" id="login">登录</button>
+                </div>
+                <div class="register-form animated" id="zhuce1">
+                    <div class="form-group">
+                        <label for="email1">手机</label>
+                        <input type="email" id="email1" class="form-control" placeholder="手机">
+                    </div>
+                    <div class="form-group">
+                        <label for="email1">昵称</label>
+                        <input type="email" id="nickname" class="form-control" placeholder="昵称">
+                    </div>
+                    <div class="form-group">
+                        <label for="password1">密码</label>
+                        <div class="site-password">
+                            <input type="password" id="password1" class="form-control" value="147258369">
+                            <i class="reveal-password fa fa-eye" title="Show Password"></i>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="password2">确认密码</label>
+                        <div class="site-password">
+                            <input type="password" id="password2" class="form-control" value="147258369">
+                            <i class="reveal-password fa fa-eye" title="Show Password"></i>
+                        </div>
+                    </div>
+                    <button type="submit" class="form-control ui-btn ui-btn-info btn-shadow" id="reg">注册</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--end login/register form-->
+
+<footer class="footer">
+    <div class="footer-item">
+        <strong>联系我们</strong>
+        <a href="#"><i class="fa fa-angle-right"></i> 刊登广告</a>
+        <a href="#"><i class="fa fa-angle-right"></i> 社区论坛</a>
+        <a href="#"><i class="fa fa-angle-right"></i> 联盟计划</a>
+    </div>
+    <div class="footer-item">
+        <strong>帮助中心</strong>
+        <a href="#"><i class="fa fa-angle-right"></i> 账户管理</a>
+        <a href="#"><i class="fa fa-angle-right"></i> 购物指南</a>
+        <a href="#"><i class="fa fa-angle-right"></i> 订单操作</a>
+    </div>
+    <div class="footer-item">
+        <strong>关注我们</strong>
+        <a href="#"><i class="fa fa-angle-right"></i> 新浪微博</a>
+        <a href="#"><i class="fa fa-angle-right"></i> 官方微信</a>
+        <a href="#"><i class="fa fa-angle-right"></i> 联系我们</a>
+    </div>
+    <div class="footer-item">
+        <strong>服务支持</strong>
+        <a href="#"><i class="fa fa-angle-right"></i> 售后政策</a>
+        <a href="#"><i class="fa fa-angle-right"></i> 自助服务</a>
+        <a href="#"><i class="fa fa-angle-right"></i> 相关下载</a>
+    </div>
+</footer>
+<div class="bottom-strip">
+    <div class="cards-accepted">
+        <img src="img/card-logos.png" alt="">
+    </div>
+    <div class="copyright"><i class="fa fa-copyright"></i> <span>升龙. 想你所想</span></div>
+    <div class="country"><span>中国</span><img src="img/flag.jpg" alt=""></div>
+</div>
+<!--end footer section-->
+
+<!--page loader-->
+<div class="page-loader">
+    <div class="loader"><img src="img/logo.png" alt=""></div>
+</div>
+<!--end page loader-->
+
+<!--scripts-->
+<script src="vendor/js/jquery-3.2.1.min.js"></script>
+<script src="vendor/js/popper.js"></script>
+<script src="vendor/js/bootstrap.min.js"></script>
+<script src="vendor/js/alertify.js"></script>
+<script src="vendor/js/jquery.knob.min.js"></script>
+<!--[if IE]><script type="text/javascript" src="vendor/js/excanvas.js"></script><![endif]-->
+<script src="vendor/js/summernote-bs4.min.js"></script>
+<script src="vendor/js/dropzone.js"></script>
+<script src="vendor/OwlCarousel2-2.2.1/owl.carousel.min.js"></script>
+<script src="vendor/perfect-scrollbar/js/perfect-scrollbar.jquery.min.js"></script>
+<script src="vendor/js/typed.js"></script>
+<script src="js/app.js"></script>
+<!--end scripts-->
+
+</body>
+</html>
+<script>
+    $("#zhuce").click(function(){
+        $("#denglu1").css({
+            display:"none"
+        });
+    });
+    $("#denglu").click(function(){
+        $("#zhuce1").css({
+            display:"none"
+        });
+    });
+    $("#reg").click(()=>{
+        if(!(/^1[3456789]\d{9}$/.test($("#email1").val()))){ 
+        alert("手机号码有误，请重填");  
+        return false; 
+        } 
+        if($("#password1").val() == $("#password2").val()){
+            $.ajax({
+                type:"post",
+                url:"http://localhost:3009/api/v1/auth/reg",
+                async:true,
+                data:{
+                    userName:$("#email1").val(),
+                    password:$("#password1").val(),
+                    nickName:$("#nickname").val()
+                },
+                success:data=>{
+                    console.log(data);
+                    if(data.code == "success"){
+                        alert("注册成功");
+                        sessionStorage.setItem("nickName",$("#nickname").val());
+                    }else{
+                        alert("用户名已存在!");
+                    }
+                }
+            });
+        }else{
+            alert("两次密码不一样");
+        }
+    });
+    $("#login").click(()=>{
+        $.ajax({
+            type:"post",
+            url:"http://localhost:3009/api/v1/auth/login",
+            async:true,
+            data:{
+                    userName:$("#email").val(),
+                    password:$("#password").val()
+                },
+            success:res=>{
+                console.log(res);
+                if(res.code == "success"){
+                    sessionStorage.setItem("token",res.token);
+                    sessionStorage.setItem("userName",$("#email").val());
+                    location.href = "index.html";
+                }
+            }
+        })
+    });
+    
+</script>
